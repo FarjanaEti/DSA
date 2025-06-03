@@ -79,8 +79,11 @@ int main() {
     }
     int posIdx=0,negIdx=0;
     int result[100];
+    //even number positive value 
+    //odd number negative value
     for (int i = 0; i < n; i++) {
-        if (i % 2 == 0)
+        //[3,1,-2,-5,2,-4]
+        if (i % 2 == 0)//0%2=0
             result[i] = pos[posIdx++];
         else
             result[i] = neg[negIdx++];
